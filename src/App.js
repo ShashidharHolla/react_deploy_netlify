@@ -7,7 +7,7 @@ import { useState, useEffect } from 'react';
 import apiRequest from './apiRequest';
 
 function App() {
-  const API_URL=' https://sweet-monstera-99756b.netlify.app/';
+  const API_URL=' https://sweet-monstera-99756b.netlify.app/items';
 
   const [items, setItems]= useState([]);
   const [newItem, setNewItem]= useState('');
